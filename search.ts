@@ -133,14 +133,14 @@ if (resultsContainer) {
 <div class="searchstax-pagination-content">
 <div class="item">
 <a class="searchstax-pagination-previous {{#isFirstPage}}disabled{{/isFirstPage}}" id="searchstax-pagination-previous" data-test-id="searchstax-pagination-previous" tabindex="0" aria-label="Previous Page">
-<img class=" previous-icon" src="https://cdn.brand.illinois.edu/illinois.edu/arrow/left/blue.svg" />Previous</a>
+<img alt="" class=" previous-icon" src="https://cdn.brand.illinois.edu/illinois.edu/arrow/left/blue.svg" />Previous</a>
 </div>
 <div class="item searchstax-pagination-details" data-test-id="searchstax-pagination-details">
               {{startResultIndex}} - {{endResultIndex}} of {{totalResults}}
 </div>
 <div class="item">
 <a class="searchstax-pagination-next {{#isLastPage}}disabled{{/isLastPage}}" data-test-id="searchstax-pagination-next" id="searchstax-pagination-next" tabindex="0" aria-label="Next Page">
-               Next<img class="previous-icon" src="https://cdn.brand.illinois.edu/illinois.edu/arrow/right/blue.svg" /></a>
+               Next<img alt="" class="previous-icon" src="https://cdn.brand.illinois.edu/illinois.edu/arrow/right/blue.svg" /></a>
 </div>
 </div>
 </div>
