@@ -250,9 +250,9 @@ searchstax.addSearchFeedbackWidget("search-feedback-container", {
         facetItemTemplate: {
             template: `
       <div class="searchstax-facet-input">
-        <input type="checkbox" class="searchstax-facet-input-checkbox" {{#disabled}}disabled{{/disabled}} {{#isChecked}}checked{{/isChecked}}/>
+        <input type="checkbox" class="searchstax-facet-input-checkbox" aria-labelledby="facet-label-{{value}}"  {{#disabled}}disabled{{/disabled}} {{#isChecked}}checked{{/isChecked}}/>
       </div>
-      <div class="searchstax-facet-value-label">{{value}}</div>
+      <div id="facet-label-{{value}}" class="searchstax-facet-value-label">{{value}}</div>
       <div class="searchstax-facet-value-count">({{count}})</div>
       `,
             inputCheckboxClass: `searchstax-facet-input-checkbox`,
