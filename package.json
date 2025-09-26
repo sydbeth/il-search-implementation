@@ -1,0 +1,19 @@
+{
+  "name": "illinois",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@searchstax-inc/searchstudio-ux-js": "^2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "vite": "^7.1.1"
+  }
+}
